@@ -17,6 +17,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
+    qcom.bluetooth.soc=rome \
     ro.bt.bdaddr_path="/data/misc/bluetooth/bdaddr"
 
 # Display
