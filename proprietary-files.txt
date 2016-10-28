@@ -179,18 +179,16 @@ vendor/lib/libqti-perfd-client.so
 bin/irsc_util
 
 # Radio
--app/qcrilmsgtunnel/qcrilmsgtunnel.apk:app/qcrilmsgtunnel.apk
--app/shutdownlistener/shutdownlistener.apk:app/shutdownlistener.apk
 bin/netmgrd
 bin/qmuxd
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-app/shutdownlistener/shutdownlistener.apk
 bin/radish
 lib/libmdmdetect.so
 etc/data/dsi_config.xml
 etc/data/netmgr_config.xml
 etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
--framework/qcnvitems.jar
--framework/qcrilhook.jar
 vendor/lib/libconfigdb.so
 vendor/lib/libdiag.so
 vendor/lib/libdsi_netctrl.so
@@ -215,6 +213,8 @@ vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libsmemlog.so
 vendor/lib/libsystem_health_mon.so
 vendor/lib/libxml.so
+framework/qcnvitems.jar
+framework/qcrilhook.jar
 
 # Sensors
 etc/sensors/sensor_def_common.conf
@@ -229,10 +229,10 @@ vendor/lib/libthermalclient.so
 vendor/lib/libthermalioctl.so
 
 # Time services
--app/TimeService/TimeService.apk:app/TimeService.apk
 bin/time_daemon
 -vendor/lib/libtime_genoff.so
 vendor/lib/libTimeService.so
+-app/TimeService/TimeService.apk
 
 # WCNSS
 vendor/firmware/wcnss.b00

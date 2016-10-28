@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
     fsck.ntfs \
     mount.ntfs
 
+# BoringSSL compatibility with OpenSSL blobs
+PRODUCT_PACKAGES += \
+    libboringssl-compat
+
 # World APN list
 PRODUCT_COPY_FILES += \
     device/lge/g3-common/apns-conf.xml:system/etc/apns-conf.xml
