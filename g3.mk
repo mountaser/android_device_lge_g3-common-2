@@ -48,8 +48,8 @@ PRODUCT_PACKAGES += \
     mount.ntfs
 
 # BoringSSL compatibility with OpenSSL blobs
-PRODUCT_PACKAGES += \
-    libboringssl-compat
+#PRODUCT_PACKAGES += \
+#    libboringssl-compat
 
 # World APN list
 PRODUCT_COPY_FILES += \
