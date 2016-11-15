@@ -353,6 +353,6 @@
     <bool name="config_supportSpeakerNearUltrasound">false</bool>
 
     <!-- Show battery fully charged notification -->
-    <bool name="config_showBatteryFullyChargedNotification">true</bool>
+<!--    <bool name="config_showBatteryFullyChargedNotification">true</bool> -->
 
 </resources>
