@@ -229,3 +229,7 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
+    
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@1.0-impl
