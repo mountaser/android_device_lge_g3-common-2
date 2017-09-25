@@ -101,8 +101,8 @@ PRODUCT_PACKAGES += \
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
-    android.hardware.graphics.mapper@2.0-impl \
     android.hardware.graphics.composer@2.1-impl \
+    android.hardware.graphics.mapper@2.0-impl \
     android.hardware.memtrack@1.0-impl \
     copybit.msm8974 \
     gralloc.msm8974 \
@@ -122,7 +122,11 @@ PRODUCT_PACKAGES += \
 # IRSC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
-
+    
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-impl
+    
 # Keystore
 PRODUCT_PACKAGES += \
     keystore.msm8974
@@ -233,3 +237,7 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl
+
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service
