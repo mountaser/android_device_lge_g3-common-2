@@ -96,6 +96,8 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     SnapdragonCamera \
+    camera.device@1.0-impl \
+    android.hardware.camera.provider@2.4-impl \
     camera.msm8974
 
 # Display
@@ -241,3 +243,11 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
+    
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl
+    
+# RenderScript HAL
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
